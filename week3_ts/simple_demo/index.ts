@@ -68,3 +68,11 @@ const btn = document.getElementById("btn")!;
 btn.addEventListener("click", () => {
   sortByAge(desc);
 });
+
+enum color {
+  Red,
+  Green,
+  Blue,
+}
+
+console.log(color.Red);

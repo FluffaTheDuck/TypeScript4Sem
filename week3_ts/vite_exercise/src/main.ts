@@ -1,4 +1,7 @@
-class Person {
+import { getPeople } from "./people";
+import renderPeopleList from "./peopleList";
+
+export default class Person {
   name: string;
   age: number;
   occupation: string;
@@ -43,4 +46,13 @@ console.log(john.getSalery()); // 1000
 console.log(john.introduce());
 console.log();
 
-export {};
+const awaitRender = async (): Promise<void> => {
+  const peopleList = await getPeople();
+  console.log(peopleList);
+  renderPeopleList(
+    document.getElementById("app") as HTMLDivElement,
+    peopleList
+  );
+};
+
+awaitRender();

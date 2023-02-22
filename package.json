@@ -18,5 +18,8 @@
   "homepage": "https://github.com/FullStackTypeScriptCourse/course_material#readme",
   "dependencies": {
     "superagent": "^8.0.9"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.1"
   }
 }

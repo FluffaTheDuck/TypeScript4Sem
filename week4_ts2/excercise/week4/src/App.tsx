@@ -29,6 +29,7 @@ function App() {
               people={people}
               editting={editting}
               setEditting={setEdditing}
+              setPeople={setPeople}
             />
           )}
         </div>

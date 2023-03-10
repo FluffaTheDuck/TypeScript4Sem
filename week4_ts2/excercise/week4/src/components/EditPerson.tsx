@@ -95,7 +95,7 @@ const EditPerson: React.FC<props> = ({
               value={newCity}
               onChange={(e) => setNewCity(e.target.value)}
             />
-            <button className="addbtn" type="submit">
+            <button className="defaultbtn bg-green-600" type="submit">
               Confirm
             </button>
           </>
@@ -104,7 +104,7 @@ const EditPerson: React.FC<props> = ({
             <input className="opacity-50" disabled type="text" />
             <input className="opacity-50" disabled type="number" />
             <input className="opacity-50" disabled type="number" />
-            <button className="bg-green-900 opacity-50" disabled>
+            <button className="defaultbtn bg-green-900 opacity-50" disabled>
               Confirm
             </button>
           </>

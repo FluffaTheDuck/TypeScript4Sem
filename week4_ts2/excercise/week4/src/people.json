@@ -2,123 +2,51 @@
   "person": [
     {
       "id": 1,
-      "name": "Frederik",
-      "age": 26,
-      "city": "Dybboelsbro"
+      "name": "Bennnnie",
+      "age": 56,
+      "city": "derovre"
     },
     {
       "id": 2,
-      "name": "Benny",
-      "age": 55,
-      "city": "enby"
-    },
-    {
-      "id": 3,
       "name": "Cecilie",
       "age": 30,
       "city": "Hundige"
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Dennis",
-      "age": 40,
-      "city": "Albertslund"
+      "age": 10,
+      "city": "frederiksberg"
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Erik",
       "age": 50,
       "city": "Frederikssund"
     },
     {
-      "id": 6,
-      "name": "Karsten",
-      "age": 25,
-      "city": "karlslunde"
-    },
-    {
-      "id": 7,
+      "id": 5,
       "name": "Gustav",
       "age": 70,
       "city": "Frederikssund"
     },
     {
-      "id": 8,
+      "id": 6,
       "name": "Hans",
       "age": 80,
       "city": "Albertslund"
     },
     {
-      "id": 9,
+      "id": 7,
       "name": "Ib",
       "age": 90,
       "city": "Frederikssund"
     },
     {
-      "id": 10,
+      "id": 8,
       "name": "Jens",
       "age": 100,
       "city": "Frederikssund"
-    },
-    {
-      "id": 11,
-      "name": "Kurt",
-      "age": 110,
-      "city": "Frederikssund"
-    },
-    {
-      "id": 12,
-      "name": "Lars",
-      "age": 120,
-      "city": "Albertslund"
-    },
-    {
-      "id": 13,
-      "name": "Mads",
-      "age": 130,
-      "city": "Frederikssund"
-    },
-    {
-      "id": 14,
-      "name": "Nikolaj",
-      "age": 140,
-      "city": "Frederikssund"
-    },
-    {
-      "id": 15,
-      "name": "Ole",
-      "age": 150,
-      "city": "Frederikssund"
-    },
-    {
-      "id": 16,
-      "name": "Peter",
-      "age": 160,
-      "city": "Frederikssund"
-    },
-    {
-      "id": 17,
-      "name": "Quintus",
-      "age": 170,
-      "city": "Albertslund"
-    },
-    {
-      "id": 18,
-      "name": "Rasmus",
-      "age": 180,
-      "city": "Frederikssund"
-    },
-    {
-      "id": 19,
-      "name": "Søren",
-      "age": 190,
-      "city": "Hørsholm"
-    },
-    {
-      "id": 20,
-      "name": "DirtyHarty",
-      "age": 30,
-      "city": "abeby"
     }
   ]
 }

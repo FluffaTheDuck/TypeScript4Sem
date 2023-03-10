@@ -7,18 +7,25 @@ type props = {
 };
 
 const DeletePerson: React.FC<props> = ({ people, setPeople }) => {
+  const findHighestId = (): number => {
+    let highest = 0;
+    people.map((el) => el.id > highest && (highest = el.id));
+    return highest;
+  };
   const handleDelete = async () => {
-    const personToDelete = people[people.length - 1];
-    await fetch("http://localhost:3008/person/" + personToDelete.id, {
+    const personToDelete = people.find((el) => el.id === findHighestId());
+    await fetch("http://localhost:3008/person/" + personToDelete!.id, {
       method: "DELETE",
     });
-    const newPeopleList = people.filter((el) => el.id != personToDelete.id);
+    const newPeopleList = people.filter((el) => el.id != personToDelete!.id);
     setPeople(newPeopleList);
   };
 
   return (
     <div>
-      <button onClick={handleDelete}>Delete Latest</button>
+      <button className="defaultbtn bg-red-700" onClick={handleDelete}>
+        Delete Latest
+      </button>
     </div>
   );
 };

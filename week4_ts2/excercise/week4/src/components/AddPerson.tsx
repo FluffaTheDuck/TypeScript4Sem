@@ -1,6 +1,5 @@
 import { SetStateAction, useState } from "react";
 import { People } from "../utils/types";
-import uniqid from "uniqid";
 
 type props = {
   setPeople: React.Dispatch<SetStateAction<People[]>>;
@@ -64,7 +63,7 @@ const AddPerson: React.FC<props> = ({ setPeople, people }) => {
           name="city"
           placeholder="city"
         />
-        <button type="submit" className="addbtn">
+        <button type="submit" className="defaultbtn bg-green-600">
           Add Person
         </button>
       </form>
